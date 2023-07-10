@@ -3,3 +3,30 @@
     padding: 0;
     font-family: 'Lato', sans-serif;
 }
+.banner-container{
+    display: flex;
+    background-color: #fdeef1;
+    align-items: center;
+    padding: 30px 30px 0px 150px;
+}
+.banner-pic{
+    height: 500px;
+}
+.banner-title{
+    color: #272727;
+    font-size: 60px;
+    margin-bottom: 36px;
+}
+.banner-description{
+    color: #797979;
+    font-size: 18px;
+    margin-bottom: 36px;
+}
+.btn{
+    border-radius: 8px;
+    color: #FFF;
+    background: #E55473;
+    border: none;
+    font-size: 20px;
+    padding: 15px 24px;
+}
