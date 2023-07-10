@@ -30,3 +30,51 @@
     font-size: 20px;
     padding: 15px 24px;
 }
+/* flowers section start */
+.featured-title{
+    width: 500px;
+    text-align: center;
+    margin-top: 178px;
+    margin: 170px 0px 48px 380px;
+}
+.section-title{
+    color: #272727;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.section-description{
+    color: #272727;
+    font-size: 18px;
+}
+.flowers-pic{
+    display: flex;
+    justify-content: center;
+}
+/* Our Flowers pic section start */
+.flowers-container{
+    display: flex;
+    margin: 50px 160px;
+}
+.flowers-pic{ 
+    gap: 24px;
+    height: 350px;
+    align-items: inherit;
+}
+#background-color-Cotton-Candy-Pink{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 50px 50px 0;
+}
+#background-color-Pale-Aqua{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 50px 15px 0;
+}
+#background-color-Mint-Cream{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 50px 50px 0;
+}
+.flowers-title{
+    display: flex;
+}
