@@ -179,7 +179,7 @@
 }
 /* footer section start */
 footer{
-    width: 100%;
+    width: 100vw;
     background: #111010;
     text-align: center;
     height: 300px;
@@ -194,7 +194,7 @@ footer{
     font-size: 18px;
     margin-top: 24px;
 }
-.copyright-{
+.copyright-description{
     color: rgba(255, 255, 255, 0.40);
     font-size: 16px;
     margin-top: 30px;
