@@ -105,3 +105,19 @@
     font-size: 24px;
     font-weight: 600;
 }
+/* Hot Deal section */
+.offer-section{
+    display: flex;
+    justify-content: center;
+    background-color: #F5EDEF;
+    align-items: center;
+    height: 480px;
+}
+.hot-deal{
+    width: 50%;
+    text-align: center;
+    padding: 50px;
+}
+.deal-description{
+    margin: 25px;
+}
