@@ -53,28 +53,55 @@
 /* Our Flowers pic section start */
 .flowers-container{
     display: flex;
-    margin: 50px 160px;
-}
-.flowers-pic{ 
+    text-align: center;
+    justify-content: center;
     gap: 24px;
-    height: 350px;
-    align-items: inherit;
 }
-#background-color-Cotton-Candy-Pink{
+.flowers-container p{
+    margin-bottom: -32px;
+}
+.flower-pic img{ 
+    height: 320px;
+}
+.flower-title{
+    color: #272727;
+    font-size: 24px;
+    text-decoration-line: underline;
+}
+#Cotton-Candy-Pink{
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     padding: 50px 50px 0;
 }
-#background-color-Pale-Aqua{
+#color-Pale-Aqua{
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
-    padding: 50px 15px 0;
+    padding: 50px 10px 0;
+}
+#color-Mint-Cream{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 50px 50px 0;
 }
 #background-color-Mint-Cream{
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
     padding: 50px 50px 0;
 }
-.flowers-title{
+/* services & technical support section */
+.services-support-container{
     display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    background: #F4F4F4;
+    width: 1030px;
+    height: 320px;
+    margin: 115px;
+}
+.icon-title{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
 }
